@@ -4,6 +4,11 @@
 [![Join the chat at https://gitter.im/autodll-webpack-plugin/Lobby](https://badges.gitter.im/autodll-webpack-plugin/Lobby.svg)](https://gitter.im/autodll-webpack-plugin/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
+# `@troyvgw/autodll-webpack-plugin` fork
+Same as original, except for extra condition where the DLL bundles will be rebuilt:
+- rebuilds DLL bundles when any module listed in the `entry` option changes (ie change to the mtime of its resolved entrypoint file)
+
+
 # Important Note
 
 
